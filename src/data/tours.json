@@ -1,0 +1,35 @@
+{
+    "featured": [
+      {
+        "id": 1,
+        "title": "South Coast Explorer",
+        "duration": "Full Day",
+        "price": 75,
+        "rating": 4.8,
+        "reviews": 142,
+        "description": "Discover the stunning south coast with its dramatic cliffs, pristine beaches, and charming fishing villages.",
+        "image": "https://images.unsplash.com/photo-1721673052069-5929b352d74b?fm=jpg&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&ixlib=rb-4.1.0&q=60&w=3000"
+    },
+      {
+        "id": 2,
+        "title": "Catamaran Cruise",
+        "duration": "Full Day",
+        "price": 95,
+        "rating": 4.9,
+        "reviews": 218,
+        "description": "Sail the turquoise waters, snorkel with dolphins, and enjoy a BBQ lunch on the pristine beaches.",
+        "image": "https://plus.unsplash.com/premium_photo-1681582959812-b65dd91759f4?fm=jpg&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8bWF1cml0aXVzJTIwYmVhY2h8ZW58MHx8MHx8fDA%3D&ixlib=rb-4.1.0&q=60&w=3000"
+    },
+      {
+        "id": 3,
+        "title": "North Island Discovery",
+        "duration": "Full Day",
+        "price": 70,
+        "rating": 4.7,
+        "reviews": 156,
+        "description": "Experience the vibrant capital, historic sites, and stunning northern beaches.",
+        "image": "https://images.unsplash.com/photo-1707381997108-a21519a2b8eb?fm=jpg&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8bWF1cml0aXVzJTIwYmVhY2h8ZW58MHx8MHx8fDA%3D&ixlib=rb-4.1.0&q=60&w=3000"
+    }
+    ]
+  }
+  

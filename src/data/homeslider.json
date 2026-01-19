@@ -1,0 +1,45 @@
+{
+    "slider": [
+        {
+            "title": "Discover Paradise",
+            "subtitle": "Experience the magic of Mauritius with our curated tours",
+            "buttons": [
+                {
+                    "text": "Explore Tours",
+                    "link": "#tours",
+                    "class": "btn-primary"
+                },
+                {
+                    "text": "Contact Us",
+                    "link": "#contact",
+                    "class": "btn-secondary"
+                }
+            ],
+            "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?crop=entropy&cs=tinysrgb&fit=max&w=2000&q=80"
+        },
+        {
+            "title": "Crystal Clear Waters",
+            "subtitle": "Dive into turquoise lagoons and pristine beaches",
+            "buttons": [
+                {
+                    "text": "View Packages",
+                    "link": "#tours",
+                    "class": "btn-primary"
+                }
+            ],
+            "image": "https://images.unsplash.com/photo-1493558103817-58b2924bce98?crop=entropy&cs=tinysrgb&fit=max&w=2000&q=80"
+        },
+        {
+            "title": "Adventure Awaits",
+            "subtitle": "From waterfalls to mountain peaks, explore it all",
+            "buttons": [
+                {
+                    "text": "Start Exploring",
+                    "link": "#tours",
+                    "class": "btn-primary"
+                }
+            ],
+            "image": "https://images.unsplash.com/photo-1590523741831-ab7e8b8f9c7f?crop=entropy&cs=tinysrgb&fit=max&w=2000&q=80"
+        }
+    ]
+}

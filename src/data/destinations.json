@@ -1,0 +1,64 @@
+{
+  "regions": [
+    {
+      "id": "north",
+      "name": "Northern Mauritius",
+      "image": "https://images.unsplash.com/photo-1544550581-5f7ceaf7f992?auto=format&fit=crop&w=1200&q=80",
+      "description": "Vibrant beaches, bustling markets, and historic sites",
+      "attractions": [
+        "Grand Bay",
+        "Pamplemousses Gardens",
+        "Port Louis",
+        "Cap Malheureux"
+      ]
+    },
+    {
+      "id": "south",
+      "name": "Southern Mauritius",
+      "image": "https://images.unsplash.com/photo-1590523741831-ab7e8b8f9c7f?q=80&w=1000&auto=format&fit=crop",
+      "description": "Dramatic landscapes, pristine nature, and cultural treasures",
+      "attractions": [
+        "Chamarel Seven Colored Earth",
+        "Le Morne Mountain",
+        "Black River Gorges National Park",
+        "Rochester Falls"
+      ]
+    },
+    {
+      "id": "east",
+      "name": "Eastern Mauritius",
+      "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?q=80&w=1000&auto=format&fit=crop",
+      "description": "Paradise islands, crystal lagoons, and pristine beaches",
+      "attractions": [
+        "Ile aux Cerfs",
+        "Blue Bay Marine Park",
+        "Belle Mare Beach",
+        "Mahebourg"
+      ]
+    },
+    {
+      "id": "west",
+      "name": "Western Mauritius",
+      "image": "https://images.unsplash.com/photo-1544550581-5f7ceaf7f992?q=80&w=1000&auto=format&fit=crop",
+      "description": "Stunning sunsets, dolphin encounters, and marine adventures",
+      "attractions": [
+        "Flic en Flac Beach",
+        "Tamarin Bay",
+        "Black River",
+        "Casela Nature Park"
+      ]
+    },
+    {
+      "id": "north-east",
+      "name": "Northern East Mauritius",
+      "image": "https://images.unsplash.com/photo-1544550581-5f7ceaf7f992?auto=format&fit=crop&w=1200&q=80",
+      "description": "Vibrant beaches, bustling markets, volcanos",
+      "attractions": [
+        "Grand Bay",
+        "Pamplemousses Gardens",
+        "Port Louis",
+        "Cap Malheureux"
+      ]
+    }
+  ]
+}

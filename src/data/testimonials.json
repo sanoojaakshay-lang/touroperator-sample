@@ -1,0 +1,58 @@
+{
+    "reviews": [
+      {
+        "id": 1,
+        "name": "Sarah Johnson",
+        "country": "United Kingdom",
+        "rating": 5,
+        "date": "December 2024",
+        "tour": "Catamaran Cruise",
+        "comment": "Absolutely incredible experience! The dolphin watching was magical and the crew was fantastic. The BBQ lunch on the beach was delicious. Highly recommend!"
+      },
+      {
+        "id": 2,
+        "name": "Marco Rossi",
+        "country": "Italy",
+        "rating": 5,
+        "date": "November 2024",
+        "tour": "South Coast Explorer",
+        "comment": "Perfect day exploring the south! The Seven Colored Earths are stunning and our guide was very knowledgeable. Great value for money."
+      },
+      {
+        "id": 3,
+        "name": "Emily Chen",
+        "country": "Singapore",
+        "rating": 5,
+        "date": "January 2025",
+        "tour": "Ile aux Cerfs Paradise",
+        "comment": "Paradise found! The island is breathtaking with crystal clear waters and white sand. The boat ride was smooth and the lunch was excellent."
+      },
+      {
+        "id": 4,
+        "name": "James Anderson",
+        "country": "Australia",
+        "rating": 4,
+        "date": "December 2024",
+        "tour": "Underwater Sea Walk",
+        "comment": "Unique experience walking on the ocean floor! Saw many colorful fish. Only wish it was a bit longer, but overall amazing."
+      },
+      {
+        "id": 5,
+        "name": "Sophie Martin",
+        "country": "France",
+        "rating": 5,
+        "date": "November 2024",
+        "tour": "North Island Discovery",
+        "comment": "Excellent tour covering all the highlights of the north. Port Louis market was vibrant and the Pamplemousses Gardens were beautiful. Great guide!"
+      },
+      {
+        "id": 6,
+        "name": "David Williams",
+        "country": "United States",
+        "rating": 5,
+        "date": "January 2025",
+        "tour": "Tamarind Falls Adventure",
+        "comment": "Adventure lovers must do this! The trek was challenging but rewarding. The waterfalls are spectacular and swimming in the natural pools was refreshing."
+      }
+    ]
+  }

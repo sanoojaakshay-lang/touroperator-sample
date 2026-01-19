@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Discover the beauty of Mauritius with our curated tours and travel experiences. Book your perfect island adventure today!">
+    <title>Mauritius Tours & Travels - Your Island Paradise Awaits</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <!-- Header & Navigation -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="container">
+                <div class="nav-wrapper">
+                    <a href="#" class="logo">
+                        <i class="fas fa-umbrella-beach"></i>
+                        <span>Mauritius Tours</span>
+                    </a>
+                    <button class="mobile-menu-toggle" aria-label="Toggle menu">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                    <ul class="nav-menu">
+                        <li><a href="#home" class="nav-link active">Home</a></li>
+                        <li><a href="#tours" class="nav-link">Tours</a></li>
+                        <li><a href="#destinations" class="nav-link">Destinations</a></li>
+                        <li><a href="#about" class="nav-link">About</a></li>
+                        <li><a href="#contact" class="nav-link">Contact</a></li>
+                        <!-- <li><a href="#" class="btn btn-primary btn-book"">Book Now</a></li> -->
+                        <li>
+                            <button class="btn btn-primary btn-book" id="open-booking-modal">
+                                Book Now
+                            </button>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-slider" id="hero-slider">
+        </div>
+        <div class="slider-controls">
+            <button class="slider-btn prev-slide" aria-label="Previous slide"><i
+                    class="fas fa-chevron-left"></i></button>
+            <button class="slider-btn next-slide" aria-label="Next slide"><i class="fas fa-chevron-right"></i></button>
+        </div>
+        <div class="slider-dots"></div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features">
+        <div class="container">
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3>Safe & Secure</h3>
+                    <p>Travel with confidence with our certified guides and safety protocols</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-dollar-sign"></i>
+                    </div>
+                    <h3>Best Prices</h3>
+                    <p>Competitive rates with no hidden fees. Quality experiences guaranteed</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-headset"></i>
+                    </div>
+                    <h3>24/7 Support</h3>
+                    <p>Round-the-clock customer service for all your travel needs</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h3>Top Rated</h3>
+                    <p>Thousands of 5-star reviews from satisfied travelers worldwide</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tours Section -->
+    <section id="tours" class="tours-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Featured Tours & Experiences</h2>
+                <p class="section-subtitle">Handpicked adventures to make your Mauritius journey unforgettable</p>
+            </div>
+
+            <!-- Filter Buttons -->
+            <div class="filter-buttons">
+                <button class="filter-btn active" data-filter="all">All Tours</button>
+                <button class="filter-btn" data-filter="beach">Beach & Sea</button>
+                <button class="filter-btn" data-filter="adventure">Adventure</button>
+                <button class="filter-btn" data-filter="culture">Culture</button>
+                <button class="filter-btn" data-filter="luxury">Luxury</button>
+            </div>
+
+            <!-- Tours Grid -->
+            <div class="tours-grid" id="tours-grid">
+                <!-- Tours will be dynamically loaded here -->
+            </div>
+
+            <div class="text-center">
+                <button class="btn btn-primary" id="load-more-tours">Load More Tours</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Destinations Section -->
+    <section id="destinations" class="destinations-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Explore Mauritius Regions</h2>
+                <p class="section-subtitle">Discover the diverse beauty of our island paradise</p>
+            </div>
+
+            <div class="destinations-grid" id="destinations-grid">
+                <!-- Destinations will be dynamically loaded here -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">What Our Travelers Say</h2>
+                <p class="section-subtitle">Real experiences from real people</p>
+            </div>
+
+            <div class="testimonials-slider" id="testimonials-slider">
+                <!-- Testimonials will be dynamically loaded here -->
+            </div>
+
+            <div class="testimonial-controls">
+                <button class="testimonial-btn prev-testimonial" aria-label="Previous testimonial"><i
+                        class="fas fa-chevron-left"></i></button>
+                <button class="testimonial-btn next-testimonial" aria-label="Next testimonial"><i
+                        class="fas fa-chevron-right"></i></button>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-image">
+                    <img src="https://images.unsplash.com/photo-1559827260-dc66d52bef19?q=80&w=800"
+                        alt="About Mauritius Tours">
+                </div>
+                <div class="about-content">
+                    <h2>Your Trusted Travel Partner in Mauritius</h2>
+                    <p>With over 15 years of experience, we've been helping travelers discover the magic of Mauritius.
+                        Our passion is creating unforgettable experiences that showcase the best of our beautiful
+                        island.</p>
+                    <div class="about-stats">
+                        <div class="stat">
+                            <h3>15+</h3>
+                            <p>Years Experience</p>
+                        </div>
+                        <div class="stat">
+                            <h3>50K+</h3>
+                            <p>Happy Travelers</p>
+                        </div>
+                        <div class="stat">
+                            <h3>100+</h3>
+                            <p>Tour Packages</p>
+                        </div>
+                        <div class="stat">
+                            <h3>4.9</h3>
+                            <p>Average Rating</p>
+                        </div>
+                    </div>
+                    <a href="#contact" class="btn btn-primary">Get in Touch</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Get in Touch</h2>
+                <p class="section-subtitle">Have questions? We're here to help plan your perfect trip</p>
+            </div>
+
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div>
+                            <h4>Visit Us</h4>
+                            <p>123 Royal Road, Grand Bay<br>Mauritius</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div>
+                            <h4>Call Us</h4>
+                            <p>+230 5123 4567<br>+230 5987 6543</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div>
+                            <h4>Email Us</h4>
+                            <p>info@mauritiustours.com<br>bookings@mauritiustours.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <div>
+                            <h4>Working Hours</h4>
+                            <p>Mon - Sat: 8:00 AM - 6:00 PM<br>Sunday: 9:00 AM - 4:00 PM</p>
+                        </div>
+                    </div>
+                </div>
+
+                <form class="contact-form" id="contact-form">
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" class="form-control" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="tel" class="form-control" placeholder="Phone Number">
+                    </div>
+                    <div class="form-group">
+                        <select class="form-control">
+                            <option value="">Select Tour Interest</option>
+                            <option value="beach">Beach & Sea Tours</option>
+                            <option value="adventure">Adventure Tours</option>
+                            <option value="culture">Cultural Tours</option>
+                            <option value="luxury">Luxury Experiences</option>
+                            <option value="custom">Custom Package</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <textarea class="form-control" rows="5" placeholder="Your Message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-block">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h3>About Mauritius Tours</h3>
+                    <p>Your premier travel partner for exploring the breathtaking beauty of Mauritius. We create
+                        memories that last a lifetime.</p>
+                    <div class="social-links">
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#tours">Tours</a></li>
+                        <li><a href="#destinations">Destinations</a></li>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h3>Newsletter</h3>
+                    <p>Subscribe to get special offers and travel tips</p>
+                    <form class="newsletter-form">
+                        <input type="email" placeholder="Your email" required>
+                        <button type="submit" class="btn btn-primary">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Mauritius Tours & Travels. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll to Top Button -->
+    <button class="scroll-to-top" id="scroll-to-top" aria-label="Scroll to top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- Loading Spinner -->
+    <div class="loading-spinner" id="loading-spinner">
+        <div class="spinner"></div>
+    </div>
+
+    <!-- Booking Modal -->
+    <div class="modal" id="booking-modal">
+        <div class="modal-content">
+            <button class="modal-close" aria-label="Close modal">&times;</button>
+            <h2>Book Your Tour</h2>
+            <iframe aria-label='Enquire Form' id="zoho-booking-form" frameborder="0" style="height:90%;width:99%;border:none;"
+                src=''></iframe>
+        </div>
+    </div>
+
+</body>
+
+</html>
